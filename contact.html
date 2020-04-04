@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Bioarchaeological Fieldschool - Contact</title>
+</head>
+
+<body>
+
+    <!-- Nawigacja -->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
+        <a href="index.html" class="navbar-brand">
+            <h3 class="mb-0">Bioarchaeological Fieldschool</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#application" class="nav-link">Application</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#accomodation" class="nav-link">Accommodation</a>
+                </li>
+                <li class="nav-item">
+                    <a href="syllabus.html" class="nav-link">Syllabus</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#staff" class="nav-link">Staff</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="#" class="nav-link">FAQ</a>
+                </li> -->
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Nagłówek -->
+
+    <section id="showcase-accomm" class="d-flex justify-content-center align-items-center">
+        <div id="overlay-accomm"></div>
+        <div id="header-accomm" class="container text-white text-center">
+            <h3 class="display-5 wersalik mt-5 mb-2">Contact</h3>
+            <h1 class="display-1">Bioarchaeological Fieldschool</h1>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+        <div class="container my-5 text-center">
+            <h2 class=" wersalik text-center mb-5">
+                <i class="fas fa-angle-double-right text-secondary pale mr-5 d-none d-sm-inline"></i>
+                Contact
+                <i class="fas fa-angle-double-left text-secondary pale ml-5 d-none d-sm-inline"></i>
+            </h2>
+
+            <div class="row my-3">
+                <div class="col-md-12 text-left">
+                    <form action="https://formspree.io/mzbgdled" id="bioarchform" type="POST" method="POST"
+                        class="needs-validation" novalidate>
+                        <!-- <form action="" id="bioarchform" type="POST" method="POST" class="needs-validation" novalidate> -->
+                        <div class="form-row">
+                            <div class="col-md-5">
+                                <label for="id_firstname">First Name<strong><span
+                                            class="text-danger h5">*</span></strong></label>
+                                <input type="text" name="first-name" id="id_firstname" class="form-control"
+                                    placeholder="First Name" required>
+                                <div class="invalid-feedback">
+                                    Please provide a first name.
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <label for="id_lastname">Last Name<strong><span
+                                            class="text-danger h5">*</span></strong></label>
+                                <input type="text" name="last-name" id="id_lastname" class="form-control"
+                                    placeholder="Last Name" required>
+                                <div class="invalid-feedback">
+                                    Please provide a last name.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-row my-3">
+                            <div class="col">
+                                <label for="id_email">Email address<strong><span
+                                            class="text-danger h5">*</span></strong></label>
+                                <input type="email" name="email-address" id="id_email" class="form-control"
+                                    placeholder="Enter your email" required>
+                                <div class="invalid-feedback">
+                                    Please provide a email address.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="select">Country</label>
+                            <select id="country" name="country" class="form-control">
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Åland Islands">Åland Islands</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="American Samoa">American Samoa</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Anguilla">Anguilla</option>
+                                <option value="Antarctica">Antarctica</option>
+                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Armenia">Armenia</option>
+                                <option value="Aruba">Aruba</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Austria">Austria</option>
+                                <option value="Azerbaijan">Azerbaijan</option>
+                                <option value="Bahamas">Bahamas</option>
+                                <option value="Bahrain">Bahrain</option>
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="Barbados">Barbados</option>
+                                <option value="Belarus">Belarus</option>
+                                <option value="Belgium">Belgium</option>
+                                <option value="Belize">Belize</option>
+                                <option value="Benin">Benin</option>
+                                <option value="Bermuda">Bermuda</option>
+                                <option value="Bhutan">Bhutan</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                <option value="Botswana">Botswana</option>
+                                <option value="Bouvet Island">Bouvet Island</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                <option value="Bulgaria">Bulgaria</option>
+                                <option value="Burkina Faso">Burkina Faso</option>
+                                <option value="Burundi">Burundi</option>
+                                <option value="Cambodia">Cambodia</option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Cape Verde">Cape Verde</option>
+                                <option value="Cayman Islands">Cayman Islands</option>
+                                <option value="Central African Republic">Central African Republic</option>
+                                <option value="Chad">Chad</option>
+                                <option value="Chile">Chile</option>
+                                <option value="China">China</option>
+                                <option value="Christmas Island">Christmas Island</option>
+                                <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Comoros">Comoros</option>
+                                <option value="Congo">Congo</option>
+                                <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of
+                                    The</option>
+                                <option value="Cook Islands">Cook Islands</option>
+                                <option value="Costa Rica">Costa Rica</option>
+                                <option value="Cote D'ivoire">Cote D'ivoire</option>
+                                <option value="Croatia">Croatia</option>
+                                <option value="Cuba">Cuba</option>
+                                <option value="Cyprus">Cyprus</option>
+                                <option value="Czech Republic">Czech Republic</option>
+                                <option value="Denmark">Denmark</option>
+                                <option value="Djibouti">Djibouti</option>
+                                <option value="Dominica">Dominica</option>
+                                <option value="Dominican Republic">Dominican Republic</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="El Salvador">El Salvador</option>
+                                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                <option value="Eritrea">Eritrea</option>
+                                <option value="Estonia">Estonia</option>
+                                <option value="Ethiopia">Ethiopia</option>
+                                <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                                <option value="Faroe Islands">Faroe Islands</option>
+                                <option value="Fiji">Fiji</option>
+                                <option value="Finland">Finland</option>
+                                <option value="France">France</option>
+                                <option value="French Guiana">French Guiana</option>
+                                <option value="French Polynesia">French Polynesia</option>
+                                <option value="French Southern Territories">French Southern Territories</option>
+                                <option value="Gabon">Gabon</option>
+                                <option value="Gambia">Gambia</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Gibraltar">Gibraltar</option>
+                                <option value="Greece">Greece</option>
+                                <option value="Greenland">Greenland</option>
+                                <option value="Grenada">Grenada</option>
+                                <option value="Guadeloupe">Guadeloupe</option>
+                                <option value="Guam">Guam</option>
+                                <option value="Guatemala">Guatemala</option>
+                                <option value="Guernsey">Guernsey</option>
+                                <option value="Guinea">Guinea</option>
+                                <option value="Guinea-bissau">Guinea-bissau</option>
+                                <option value="Guyana">Guyana</option>
+                                <option value="Haiti">Haiti</option>
+                                <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands
+                                </option>
+                                <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                                <option value="Honduras">Honduras</option>
+                                <option value="Hong Kong">Hong Kong</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Iceland">Iceland</option>
+                                <option value="India">India</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                                <option value="Iraq">Iraq</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Isle of Man">Isle of Man</option>
+                                <option value="Israel">Israel</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Jamaica">Jamaica</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Jersey">Jersey</option>
+                                <option value="Jordan">Jordan</option>
+                                <option value="Kazakhstan">Kazakhstan</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Kiribati">Kiribati</option>
+                                <option value="Korea, Democratic People's Republic of">Korea, Democratic People's
+                                    Republic of</option>
+                                <option value="Korea, Republic of">Korea, Republic of</option>
+                                <option value="Kuwait">Kuwait</option>
+                                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                <option value="Lao People's Democratic Republic">Lao People's Democratic Republic
+                                </option>
+                                <option value="Latvia">Latvia</option>
+                                <option value="Lebanon">Lebanon</option>
+                                <option value="Lesotho">Lesotho</option>
+                                <option value="Liberia">Liberia</option>
+                                <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                                <option value="Liechtenstein">Liechtenstein</option>
+                                <option value="Lithuania">Lithuania</option>
+                                <option value="Luxembourg">Luxembourg</option>
+                                <option value="Macao">Macao</option>
+                                <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former
+                                    Yugoslav Republic of</option>
+                                <option value="Madagascar">Madagascar</option>
+                                <option value="Malawi">Malawi</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Maldives">Maldives</option>
+                                <option value="Mali">Mali</option>
+                                <option value="Malta">Malta</option>
+                                <option value="Marshall Islands">Marshall Islands</option>
+                                <option value="Martinique">Martinique</option>
+                                <option value="Mauritania">Mauritania</option>
+                                <option value="Mauritius">Mauritius</option>
+                                <option value="Mayotte">Mayotte</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                                <option value="Moldova, Republic of">Moldova, Republic of</option>
+                                <option value="Monaco">Monaco</option>
+                                <option value="Mongolia">Mongolia</option>
+                                <option value="Montenegro">Montenegro</option>
+                                <option value="Montserrat">Montserrat</option>
+                                <option value="Morocco">Morocco</option>
+                                <option value="Mozambique">Mozambique</option>
+                                <option value="Myanmar">Myanmar</option>
+                                <option value="Namibia">Namibia</option>
+                                <option value="Nauru">Nauru</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="Netherlands Antilles">Netherlands Antilles</option>
+                                <option value="New Caledonia">New Caledonia</option>
+                                <option value="New Zealand">New Zealand</option>
+                                <option value="Nicaragua">Nicaragua</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Niue">Niue</option>
+                                <option value="Norfolk Island">Norfolk Island</option>
+                                <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                <option value="Norway">Norway</option>
+                                <option value="Oman">Oman</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Palau">Palau</option>
+                                <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                                <option value="Panama">Panama</option>
+                                <option value="Papua New Guinea">Papua New Guinea</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Pitcairn">Pitcairn</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Puerto Rico">Puerto Rico</option>
+                                <option value="Qatar">Qatar</option>
+                                <option value="Reunion">Reunion</option>
+                                <option value="Romania">Romania</option>
+                                <option value="Russian Federation">Russian Federation</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="Saint Helena">Saint Helena</option>
+                                <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                <option value="Saint Lucia">Saint Lucia</option>
+                                <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                                <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines
+                                </option>
+                                <option value="Samoa">Samoa</option>
+                                <option value="San Marino">San Marino</option>
+                                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                <option value="Senegal">Senegal</option>
+                                <option value="Serbia">Serbia</option>
+                                <option value="Seychelles">Seychelles</option>
+                                <option value="Sierra Leone">Sierra Leone</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Slovakia">Slovakia</option>
+                                <option value="Slovenia">Slovenia</option>
+                                <option value="Solomon Islands">Solomon Islands</option>
+                                <option value="Somalia">Somalia</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="South Georgia and The South Sandwich Islands">South Georgia and The South
+                                    Sandwich Islands</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Sri Lanka">Sri Lanka</option>
+                                <option value="Sudan">Sudan</option>
+                                <option value="Suriname">Suriname</option>
+                                <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                                <option value="Swaziland">Swaziland</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                                <option value="Taiwan, Province of China">Taiwan, Province of China</option>
+                                <option value="Tajikistan">Tajikistan</option>
+                                <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Timor-leste">Timor-leste</option>
+                                <option value="Togo">Togo</option>
+                                <option value="Tokelau">Tokelau</option>
+                                <option value="Tonga">Tonga</option>
+                                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                <option value="Tunisia">Tunisia</option>
+                                <option value="Turkey">Turkey</option>
+                                <option value="Turkmenistan">Turkmenistan</option>
+                                <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                <option value="Tuvalu">Tuvalu</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="United States">United States</option>
+                                <option value="United States Minor Outlying Islands">United States Minor Outlying
+                                    Islands</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="Uzbekistan">Uzbekistan</option>
+                                <option value="Vanuatu">Vanuatu</option>
+                                <option value="Venezuela">Venezuela</option>
+                                <option value="Viet Nam">Viet Nam</option>
+                                <option value="Virgin Islands, British">Virgin Islands, British</option>
+                                <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                                <option value="Wallis and Futuna">Wallis and Futuna</option>
+                                <option value="Western Sahara">Western Sahara</option>
+                                <option value="Yemen">Yemen</option>
+                                <option value="Zambia">Zambia</option>
+                                <option value="Zimbabwe">Zimbabwe</option>
+                            </select>
+                            <small class="text-muted">Select your country</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="id_message">Message</label>
+                            <textarea name="message" id="id_message" rows="10" class="form-control"></textarea>
+                            <small class="text-muted">Include any special request you have for us!</small>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" value="" id="id_checkgdpr" name="checkgdpr"
+                                required>
+                            <label for="id_checkgdpr" class="form-check-label">I've read the Information
+                                Clause.<strong><span class="text-danger h5">*</span></strong></label>
+                            <div class="invalid-feedback">
+                                You must read before submitting.
+                            </div>
+
+                        </div>
+
+                        <input type="submit" value="Submit" class="btn btn-warning" id="Form-submit">
+                    </form>
+
+                </div>
+            </div>
+
+            <dir class="row mt-5">
+                <div class="col-12 text-left">
+                    <small>
+                        <h6>*Purposes and legal bases of the processing</h6>
+
+                        <p>We will process your personal data for purposes as follows:</p>
+
+                        <p>Conducting communication with you via e-mail, if you have initiated such communication –
+                            art.
+                            6
+                            par. 1(c) of the GDPR (Regulation (EU) 2016/679 of the European Parliament and of the
+                            Council of
+                            April 27, 2016, on the protection of individuals concerning the processing of personal
+                            data
+                            and
+                            on the free movement of such data, and repealing Directive 95/46/ EC – General Data
+                            Protection
+                            Regulation, Official Journal of the EU L 119 of 04./05/2016, page 1, as amended). The
+                            processing
+                            is deemed necessary to fulfil the legal obligation incumbent on the Controller (the
+                            legal
+                            obligation, in particular, gives rise from, either, the Act of July 20, 2018 – Law on
+                            Higher
+                            Education and Science; the Act of July 16, 2016 – Telecommunications Law, the Act of
+                            February
+                            17, 2005, on the computerisation of the activities of entities performing public tasks).
+                        </p>
+
+                        <p>The Controller has appointed a Data Protection Officer whom you may contact via e-mail at
+                            iod@adm.uw.edu.pl. The DPO may be contacted in each and every matter regarding the
+                            processing of
+                            your personal data by the University of Warsaw, as well as your exercise of rights
+                            related
+                            to
+                            personal data processing.
+                        </p>
+
+                        <p>Form submission service provided by formspree.io, for details see: <a
+                                href="https://formspree.io/legal/privacy-policy">
+                                Formspree Privacy Policy</a>.</p>
+                    </small>
+
+                </div>
+            </dir>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class=" bg-dark">
+        <div class="container text-white text-center pt-5">
+            <div class="row justify-content-around">
+                <div class="col-md-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-left" href="about.html">
+                                <i class="fas fa-arrow-circle-right text-white mr-2"></i>
+                                About us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-left"
+                                href="http://www.archeologia.uw.edu.pl/en/new-main-page/" target="_blank">
+                                <i class="fas fa-arrow-circle-right text-white mr-2"></i>
+                                Institute od Archaeology
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-left" href="http://en.uw.edu.pl/" target="_blank">
+                                <i class="fas fa-arrow-circle-right text-white mr-2"></i>
+                                University of Warsaw
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-md-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-left" href="contact.html">
+                                <i class="fas fa-address-book text-white mr-2"></i>
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-left" href="mailto:fieldschool.ia@uw.edu.pl">
+                                <i class="fas fa-envelope text-white mr-2"></i>
+                                Email
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-left" href="http://en.uw.edu.pl/cookie-statement/"
+                                target="_blank">
+                                Cookie statement
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <p class="lead text-center">&copy; 2020 INSTITUTE OF ARCHAEOLOGY UW</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="bootstrap/dist/js/bootstrap.min.js">
+    </script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $nav2 = $("#mainNav");
+                $nav2.toggleClass("scrolled", $(this).scrollTop() > $nav2.height());
+            });
+        });
+    </script>
+
+    <script>
+        $('.navbar-nav>li>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>

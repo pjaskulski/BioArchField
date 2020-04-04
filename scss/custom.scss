@@ -1,0 +1,248 @@
+// custom styles
+
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+    font-weight: 300;
+    // position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+
+    .navbar-brand h3 {
+        font-weight: 300;
+    }
+
+    .nav-item {
+        font-size: 1.4rem;
+    }
+
+    .nav-link:hover {
+        transition: border 0.2s;
+        border-bottom: solid 1px white;
+    }
+
+}
+
+.scrolled {
+    background: #1f1f1f;
+    transition: background 500ms;
+}
+
+.wersalik {
+    text-transform: uppercase;
+}
+
+.btnradius {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+
+
+#showcase {
+    background: url("../images/main.jpg") bottom center / cover no-repeat;
+    min-height: 750px;
+    position: relative;
+
+    #header {
+        z-index: 2;
+    }
+
+    #overlay {
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    #logo {
+        position: absolute;
+        top: 60px;
+        left: 60px;
+    }
+
+    #logouw {
+        position: absolute;
+        top: 60px;
+        left: 200px;
+    }
+
+    h1 {
+        // font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+
+    #book {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+
+    #expe {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+}
+
+#showcase-syllabus {
+    background: url("../images/syllabus.jpg") center center / cover no-repeat;
+    min-height: 400px;
+    position: relative;
+
+    #header-syllabus {
+        z-index: 2;
+    }
+
+    #overlay-syllabus {
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    h1 {
+        line-height: 1;
+    }
+}
+
+#showcase-accomm {
+    background: url("../images/accommodation.jpg") center center / cover no-repeat;
+    min-height: 400px;
+    position: relative;
+
+    #header-accomm {
+        z-index: 2;
+    }
+
+    #overlay-accomm {
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    h1 {
+        line-height: 1;
+    }
+}
+
+#experience {
+    img:hover {
+        border: solid 1px darkgray;
+        border-radius: 2rem;
+        opacity: 0.5;
+    }
+}
+
+#quotes {
+    i {
+        opacity: 0.3;
+    }
+}
+
+.pale {
+    opacity: 0.3;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        background: #1f1f1f;
+
+        .navbar-brand h3 {
+            font-size: 1rem;
+        }
+
+        .nav-item {
+            font-size: 1.2rem;
+        }
+
+        .nav-link:hover {
+            border-bottom: none;
+        }
+    }
+
+    h3.experience {
+        font-size: 1.4rem;
+    }
+
+    h2.card-title {
+        font-size: 1.4rem;
+    }
+
+    #research {
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+
+    #showcase {
+        min-height: 500px;
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        #book {
+            font-size: 1rem;
+        }
+
+        #expe {
+            font-size: 1rem;
+        }
+    }
+
+    #showcase-syllabus {
+        min-height: 300px;
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+
+    #showcase-accomm {
+        min-height: 300px;
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+        }
+    }
+
+    #accommodation {
+        h4 {
+            font-size: 1.2 rem;
+        }
+    }
+
+    h2.wersalik {
+        font-size: 1.4rem;
+    }
+
+}
